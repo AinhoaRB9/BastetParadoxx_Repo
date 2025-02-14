@@ -134,7 +134,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17e157f321a75240a07bcebd4fedc85
+      internalID: -365365452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4c1433b9b6654478398a023297bf06
+      internalID: 2134480757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86db3cc41d1583429c7f734f671f7f2
+      internalID: 1055787594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103d1f068ee9a274cbf7244985076018
+      internalID: -1006506591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bf4c248a5bc464e83af6dfbc007f94
+      internalID: 1007790989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdeeaacd7026fb4c9ce697cdad7e6e6
+      internalID: -1105004061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9522e019c6293d74fb7801cbed01f713
+      internalID: 818966460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccd88787e0d15941bf8850447cb519e
+      internalID: 917314051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a665f063c6b8fc4ca4635214bbeead4
+      internalID: -751006906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7c045db57403b49b013335464add8d
+      internalID: -334328699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f68d4b50914c341ac35ac98b4c64ba
+      internalID: 985196328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e5254f710c5a34387eea880f8bb4c1
+      internalID: -719345205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e84cf3c43844347ab0d20df1893003
+      internalID: 245751034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c54a8d7eced16c43ba18385394f4d7a
+      internalID: 1557390351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cf9477b6130bd4a83b135d7a30e92d
+      internalID: 864733857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3315e53262ecb214bae2665a2842f5ca
+      internalID: 1518145756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3cff568ca536245b6647b3308d4d49
+      internalID: 1500123412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd9c25166cf62445a658f6b673fec79
+      internalID: -1442233585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +523,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_0: -365365452
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_1: 2134480757
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_10: 985196328
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_11: -719345205
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_12: 245751034
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_13: 1557390351
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_14: 864733857
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_15: 1518145756
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_16: 1500123412
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_17: -1442233585
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_2: 1055787594
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_3: -1006506591
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_4: 1007790989
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_5: -1105004061
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_6: 818966460
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_7: 917314051
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_8: -751006906
+      NadyaNachkova_Prac 7_A3D_SpriteSheet_Enemigo2_9: -334328699
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
