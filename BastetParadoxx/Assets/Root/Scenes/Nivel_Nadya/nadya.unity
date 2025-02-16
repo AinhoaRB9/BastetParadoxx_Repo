@@ -3531,6 +3531,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 723705680736500737, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1229328081}
+    - targetCorrespondingSourceObject: {fileID: 723705680736500737, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1229328082}
   m_SourcePrefab: {fileID: 100100000, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
 --- !u!1 &1229328074 stripped
 GameObject:
@@ -3551,6 +3554,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+--- !u!114 &1229328082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229328074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a3e7fc3ea5f7046a812f4bfe518237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualPoints: 0
+  winPoints: 5
+  winCoin: {fileID: 1776565516}
 --- !u!1001 &1234669459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3880,6 +3898,11 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2
+--- !u!1 &1776565516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5027561328152032982, guid: b74c8f70a0071b440904b4390f657331, type: 3}
+  m_PrefabInstance: {fileID: 1234669459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1787747526
 GameObject:
   m_ObjectHideFlags: 0
