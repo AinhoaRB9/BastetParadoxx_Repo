@@ -48,5 +48,19 @@ public class EnemigoAtaque : MonoBehaviour
     {
         hitbox.enabled = false;
     }
-        
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player")) // Si la hitbox golpea al jugador
+        {
+            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(daño); // Hace daño al jugador
+                Debug.Log($"El enemigo golpeó al jugador e hizo {daño} de daño.");
+            }
+        }
+    }
+
+
 }
