@@ -27,4 +27,18 @@ public class PlayerHealth : MonoBehaviour
     {
         return currentHealth;
     }
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
+            Debug.Log("El jugador ha muerto.");
+            // Aquí puedes poner lógica de muerte (reiniciar nivel, animación de muerte, etc.)
+        }
+
+        Debug.Log($"Jugador recibió {damage} de daño. Vida actual: {currentHealth}/{maxHealth}");
+    }
+
 }
