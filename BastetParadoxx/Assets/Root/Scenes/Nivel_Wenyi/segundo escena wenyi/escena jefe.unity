@@ -1742,6 +1742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495656611}
   - component: {fileID: 495656612}
+  - component: {fileID: 495656613}
   m_Layer: 0
   m_Name: RespawnEnemigo
   m_TagString: Untagged
@@ -1771,7 +1772,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495656610}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 824d94b19342038488fc4d6c923cdd83, type: 3}
   m_Name: 
@@ -1784,6 +1785,22 @@ MonoBehaviour:
   spawnIsRandom: 0
   limitYpositive: 0
   limitYnegative: 0
+--- !u!114 &495656613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495656610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223a95a5b7b8e1b468dbe331a4e6863c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1120729955014061746, guid: a5c0a5d7ebe8cc34a84c9cad3816fca0, type: 3}
+  enemyCount: 10
+  spawnAreaMin: {x: -5, y: 20}
+  spawnAreaMax: {x: 5, y: 30}
 --- !u!1 &511950856
 GameObject:
   m_ObjectHideFlags: 0
