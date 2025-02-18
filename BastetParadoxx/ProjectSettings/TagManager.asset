@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - PickUp
   - WinCoin
+  - Obstacle
   layers:
   - Default
   - TransparentFX
