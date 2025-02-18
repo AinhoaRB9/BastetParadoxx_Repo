@@ -141,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4747082032202680173, guid: b74c8f70a0071b440904b4390f657331, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.8
+      value: 3.62
       objectReference: {fileID: 0}
     - target: {fileID: 4747082032202680173, guid: b74c8f70a0071b440904b4390f657331, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3233,10 +3233,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp  (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 5027561328152032982, guid: b74c8f70a0071b440904b4390f657331, type: 3}
-      propertyPath: m_TagString
-      value: PickUp
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3630,7 +3626,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1132318777
@@ -3722,7 +3718,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 723705680736500737, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1229328095}
+      addedObject: {fileID: 1229328101}
   m_SourcePrefab: {fileID: 100100000, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
 --- !u!1 &1191242260
 GameObject:
@@ -3802,7 +3798,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1707889946773336428, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
   m_PrefabInstance: {fileID: 1164555050}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1229328095
+--- !u!114 &1229328101
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3811,14 +3807,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1229328074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d4ac825e6965ef419c104a6d4fc23f5, type: 3}
+  m_Script: {fileID: 11500000, guid: eca870756e3c8eb41a989e67def063f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  currentHealth: 0
-  animator: {fileID: 0}
-  isDead: 0
-  healthBarFill: {fileID: 0}
 --- !u!1001 &1234669459
 PrefabInstance:
   m_ObjectHideFlags: 0
