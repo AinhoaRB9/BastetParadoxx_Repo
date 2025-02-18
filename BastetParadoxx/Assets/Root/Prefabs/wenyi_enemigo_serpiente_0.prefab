@@ -12,10 +12,12 @@ GameObject:
   - component: {fileID: 1351324621126860967}
   - component: {fileID: 2075406715590398152}
   - component: {fileID: 3779590905533689759}
-  - component: {fileID: 8914509788247530102}
+  - component: {fileID: 8811909000412771079}
+  - component: {fileID: 8634831447987023148}
+  - component: {fileID: 9215302815333142067}
   m_Layer: 0
   m_Name: wenyi_enemigo_serpiente_0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,9 +136,23 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!70 &8914509788247530102
-CapsuleCollider2D:
+  m_Constraints: 4
+--- !u!114 &8811909000412771079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120729955014061746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e63b0545c998d49ad20c005fa707d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  speed: 3
+--- !u!60 &8634831447987023148
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -167,6 +183,45 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0023674965, y: 0.7185483}
-  m_Size: {x: 1.1088972, y: 1.1088972}
-  m_Direction: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.36714172, y: 0.24205017}
+      - {x: 0.11172342, y: 0.2818799}
+      - {x: -0.3141265, y: 0.29985332}
+      - {x: -0.27908516, y: 0.6141634}
+      - {x: -0.28675985, y: 0.7264252}
+      - {x: -0.3600049, y: 0.7569537}
+      - {x: -0.42485285, y: 0.71631}
+      - {x: -0.40606642, y: 0.3070817}
+      - {x: -0.34763336, y: 0.1922884}
+      - {x: 0.4272933, y: 0.18289518}
+      - {x: 0.47181988, y: 0.20944834}
+      - {x: 0.47181988, y: 0.22335482}
+      - {x: 0.41157627, y: 0.22488976}
+  m_UseDelaunayMesh: 0
+--- !u!114 &9215302815333142067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120729955014061746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554cf6319936400489d5528ab0766936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangoDeAtaque: 2
+  tiempoEntreAtaques: 1
+  "da\xF1o": 10
+  hitbox: {fileID: 0}

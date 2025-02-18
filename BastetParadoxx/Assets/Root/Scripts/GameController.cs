@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+public class PlayerRespawn : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform respawnPoint; // ?? respawn ???
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.CompareTag("RespawnTrigger")) // ??????? "RespawnTrigger"
+        {
+            Respawn();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void Respawn()
     {
-        
+        // ???????? respawnPoint
+        transform.position = respawnPoint.position;
     }
 }
