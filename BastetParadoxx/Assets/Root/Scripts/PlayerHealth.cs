@@ -1,13 +1,17 @@
 using UnityEngine;
+using UnityEngine.UI; // Necesario para manejar la barra de vida
 
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100; // Vida máxima del jugador
     private int currentHealth;  // Vida actual
 
+    public Image barraDeVida; // Arrástrala en el Inspector
+
     private void Start()
     {
         currentHealth = maxHealth; // Iniciar con vida completa
+        ActualizarBarraDeVida();
     }
 
     public void Heal(int amount)
@@ -20,6 +24,7 @@ public class PlayerHealth : MonoBehaviour
             currentHealth = maxHealth; // No pasar el máximo
         }
 
+        ActualizarBarraDeVida();
         Debug.Log($"Jugador curado: {amount} de vida. Antes: {previousHealth}, Ahora: {currentHealth}");
     }
 
@@ -27,6 +32,7 @@ public class PlayerHealth : MonoBehaviour
     {
         return currentHealth;
     }
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -38,8 +44,15 @@ public class PlayerHealth : MonoBehaviour
             // Aquí puedes poner lógica de muerte (reiniciar nivel, animación de muerte, etc.)
         }
 
+        ActualizarBarraDeVida();
         Debug.Log($"Jugador recibió {damage} de daño. Vida actual: {currentHealth}/{maxHealth}");
     }
 
+    void ActualizarBarraDeVida()
+    {
+        if (barraDeVida != null)
+        {
+            barraDeVida.fillAmount = (float)currentHealth / maxHealth;
+        }
+    }
 }
-
