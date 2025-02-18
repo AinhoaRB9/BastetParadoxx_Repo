@@ -6810,6 +6810,10 @@ PrefabInstance:
       value: AE03_Atlas_(Wenyi)_60
       objectReference: {fileID: 0}
     - target: {fileID: 2060901639772067838, guid: 5bceea3a70eebdf4e90851e86629223c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2060901639772067838, guid: 5bceea3a70eebdf4e90851e86629223c, type: 3}
       propertyPath: m_TagString
       value: PickUp
       objectReference: {fileID: 0}
