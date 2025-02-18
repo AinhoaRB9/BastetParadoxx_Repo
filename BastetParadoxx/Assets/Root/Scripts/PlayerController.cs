@@ -68,6 +68,15 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetTrigger("Attack");
         StartCoroutine(ResetAttackTrigger());
+        anim.SetTrigger("Attack");  // Activa la animación de ataque
+
+        Collider2D hitEnemy = Physics2D.OverlapCircle(transform.position, 1f, LayerMask.GetMask("Enemy"));
+
+        if (hitEnemy != null)
+        {
+            Destroy(hitEnemy.gameObject); // Mata al enemigo golpeado
+        }
+
     }
 
     IEnumerator ResetAttackTrigger()
