@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6915890152714657181}
   - component: {fileID: 3599162220694521074}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 5707931458864981808}
   - component: {fileID: 859007910407851021}
   - component: {fileID: 6195749638754288080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EnemigoMomia
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.029327631, y: -0.1955185}
+  m_Offset: {x: 0.013367653, y: -0.26733768}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -275,7 +275,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4329963, y: 1.608963}
+  m_Size: {x: 1.241478, y: 1.4653246}
   m_EdgeRadius: 0
 --- !u!58 &859007910407851021
 CircleCollider2D:
@@ -309,9 +309,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.6144533, y: -0.24737719}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.1381695
 --- !u!114 &6195749638754288080
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class EnemigoAtaque : MonoBehaviour
     public float rangoDeAtaque = 2f; // Distancia a la que ataca
     public float tiempoEntreAtaques = 1f; // Tiempo entre ataques
     public int daño = 10; // Daño que hace al jugador
+    public int health = 50;
 
     private Transform jugador;
     private Animator animator;
@@ -61,6 +62,21 @@ public class EnemigoAtaque : MonoBehaviour
             }
         }
     }
+    public void TakeDamage(int damage)
+    {
+        health -= damage; // Resta el daño recibido
 
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+    void Die()
+    {
+        animator.SetTrigger("Death"); // Activa la animación de muerte
+        GetComponent<Collider2D>().enabled = false; // Desactiva colisiones
+        this.enabled = false; // Desactiva el script del enemigo
+        Destroy(gameObject, 1f); // Destruye al enemigo después de 1 segundo
+    }
 
 }
