@@ -61,7 +61,11 @@ public class PlayerController : MonoBehaviour
             {
                 Attack();
             }
+
         }
+        
+        
+
     }
 
     void Attack()
