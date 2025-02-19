@@ -92,7 +92,6 @@ GameObject:
   - component: {fileID: 8579494170674850069}
   - component: {fileID: 5707931458864981808}
   - component: {fileID: 859007910407851021}
-  - component: {fileID: 6195749638754288080}
   m_Layer: 3
   m_Name: EnemigoMomia
   m_TagString: Enemy
@@ -313,20 +312,3 @@ CircleCollider2D:
   m_Offset: {x: 0.11598909, y: -0.24737716}
   serializedVersion: 2
   m_Radius: 0.6397053
---- !u!114 &6195749638754288080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4856808018122385106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 554cf6319936400489d5528ab0766936, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rangoDeAtaque: 2
-  tiempoEntreAtaques: 1
-  "da\xF1o": 10
-  health: 50
-  hitbox: {fileID: 3599162220694521074}
