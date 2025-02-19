@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1258557853888707249}
   - component: {fileID: 2867922516623773286}
   - component: {fileID: 4158825482434787357}
-  - component: {fileID: 1631580516895897080}
   - component: {fileID: 4114153711385629696}
+  - component: {fileID: 4712073209539925968}
   m_Layer: 0
   m_Name: enemigo_mosca
   m_TagString: Enemy
@@ -174,20 +174,6 @@ PolygonCollider2D:
       - {x: 0.171875, y: -0.140625}
       - {x: 0.203125, y: -0.1015625}
   m_UseDelaunayMesh: 0
---- !u!114 &1631580516895897080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4855790844488137926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18e63b0545c998d49ad20c005fa707d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1707889946773336428, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
-  speed: 10
 --- !u!50 &4114153711385629696
 Rigidbody2D:
   serializedVersion: 4
@@ -196,11 +182,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4855790844488137926}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -215,3 +201,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4712073209539925968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855790844488137926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736a2bef29fd2d14897979abc93832c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1707889946773336428, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
+  speed: 7.5
+  stoppingDistance: 0
