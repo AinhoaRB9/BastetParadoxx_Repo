@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Root/Scenes/Nivel_Nadya/nadya.unity
     guid: 89a430c629c27554db2d0b3318629592
   - enabled: 1
+    path: Assets/Root/Scenes/Nivel_Wenyi/segundo escena wenyi/escena jefe.unity
+    guid: 9a2420bccf2f3f045a2ed7111ed5e334
+  - enabled: 1
     path: Assets/Root/Scenes/Fin/Fin.unity
     guid: 482e64ce0d0d9b24ea7842b797967647
   m_configObjects: {}
