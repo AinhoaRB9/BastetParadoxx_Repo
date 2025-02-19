@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -2136304575, guid: e105acaf3fa3e4d48ad781a46aedfc60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1120729955014061746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18e63b0545c998d49ad20c005fa707d0, type: 3}
   m_Name: 
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangoDeAtaque: 2
   tiempoEntreAtaques: 1
-  "da\u99C9": 10
+  "da\xF1o": 10
   health: 50
   hitbox: {fileID: 8634831447987023148}
 --- !u!58 &8729169656239113193

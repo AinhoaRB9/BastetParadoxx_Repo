@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4158825482434787357}
   - component: {fileID: 4114153711385629696}
   - component: {fileID: 4712073209539925968}
+  - component: {fileID: 4444310520499355113}
   m_Layer: 0
   m_Name: enemigo_mosca
   m_TagString: Enemy
@@ -208,7 +209,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4855790844488137926}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 736a2bef29fd2d14897979abc93832c5, type: 3}
   m_Name: 
@@ -216,3 +217,20 @@ MonoBehaviour:
   player: {fileID: 1707889946773336428, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
   speed: 7.5
   stoppingDistance: 0
+--- !u!114 &4444310520499355113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855790844488137926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554cf6319936400489d5528ab0766936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangoDeAtaque: 2
+  tiempoEntreAtaques: 1
+  "da\xF1o": 10
+  health: 50
+  hitbox: {fileID: 0}
