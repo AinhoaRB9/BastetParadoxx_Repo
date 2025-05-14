@@ -48,4 +48,5 @@ public class EnemyFollow : MonoBehaviour
         if (direction != 0)
             spriteRenderer.flipX = direction < 0;
     }
+
 }
