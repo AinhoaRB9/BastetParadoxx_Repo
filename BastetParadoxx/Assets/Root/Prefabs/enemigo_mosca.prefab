@@ -12,9 +12,15 @@ GameObject:
   - component: {fileID: 1258557853888707249}
   - component: {fileID: 2867922516623773286}
   - component: {fileID: 4114153711385629696}
+<<<<<<< Updated upstream
   - component: {fileID: 4712073209539925968}
   - component: {fileID: 4444310520499355113}
   - component: {fileID: 8208212451267775591}
+=======
+  - component: {fileID: 6146713281453704458}
+  - component: {fileID: 5395044975621947795}
+  - component: {fileID: 7355047838514737769}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: enemigo_mosca
   m_TagString: Enemy
@@ -31,7 +37,11 @@ Transform:
   m_GameObject: {fileID: 4855790844488137926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.1357694, y: 2.918309, z: 0}
+<<<<<<< Updated upstream
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+=======
+  m_LocalScale: {x: -2.5, y: 2.5, z: 2.5}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -119,7 +129,11 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4855790844488137926}
   m_BodyType: 1
+<<<<<<< Updated upstream
   m_Simulated: 1
+=======
+  m_Simulated: 0
+>>>>>>> Stashed changes
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -137,22 +151,39 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+<<<<<<< Updated upstream
 --- !u!114 &4712073209539925968
+=======
+--- !u!114 &6146713281453704458
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4855790844488137926}
+<<<<<<< Updated upstream
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 736a2bef29fd2d14897979abc93832c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+<<<<<<< Updated upstream
   detectionRange: 5
   player: {fileID: 1707889946773336428, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
 --- !u!114 &4444310520499355113
+=======
+  moveVerticalSpeed: 2
+  detectionRange: 5
+  player: {fileID: 0}
+  maxHeight: 3
+  minHeight: -3
+--- !u!114 &5395044975621947795
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,8 +199,13 @@ MonoBehaviour:
   tiempoEntreAtaques: 1
   "da\u99C9": 10
   health: 50
+<<<<<<< Updated upstream
   hitbox: {fileID: 8208212451267775591}
 --- !u!58 &8208212451267775591
+=======
+  hitbox: {fileID: 7355047838514737769}
+--- !u!58 &7355047838514737769
+>>>>>>> Stashed changes
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

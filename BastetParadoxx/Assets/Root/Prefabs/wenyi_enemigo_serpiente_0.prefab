@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 5072478197093282260}
   - component: {fileID: 1351324621126860967}
   - component: {fileID: 2075406715590398152}
+  - component: {fileID: 7981807904534719815}
   - component: {fileID: 3779590905533689759}
-  - component: {fileID: 8811909000412771079}
-  - component: {fileID: 8634831447987023148}
   - component: {fileID: 9215302815333142067}
   - component: {fileID: 8729169656239113193}
+  - component: {fileID: 4692609629323475204}
   m_Layer: 0
   m_Name: wenyi_enemigo_serpiente_0
   m_TagString: Enemy
@@ -32,7 +32,11 @@ Transform:
   m_GameObject: {fileID: 1120729955014061746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.2659335, y: 4.0866675, z: 0}
+<<<<<<< Updated upstream
   m_LocalScale: {x: -2.5, y: 2.5, z: 2.5}
+=======
+  m_LocalScale: {x: -1.4331, y: 1.4331, z: 1.4331}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -111,6 +115,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7981807904534719815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120729955014061746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e63b0545c998d49ad20c005fa707d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  detectionRange: 5
+  player: {fileID: 0}
 --- !u!50 &3779590905533689759
 Rigidbody2D:
   serializedVersion: 4
@@ -119,11 +138,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1120729955014061746}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 5
+  m_UseAutoMass: 1
+  m_Mass: 0.91096985
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -138,6 +157,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+<<<<<<< Updated upstream
 --- !u!114 &8811909000412771079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +230,8 @@ PolygonCollider2D:
       - {x: 0.47181988, y: 0.22335482}
       - {x: 0.41157627, y: 0.22488976}
   m_UseDelaunayMesh: 0
+=======
+>>>>>>> Stashed changes
 --- !u!114 &9215302815333142067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +248,7 @@ MonoBehaviour:
   tiempoEntreAtaques: 1
   "da\u99C9": 10
   health: 50
-  hitbox: {fileID: 8634831447987023148}
+  hitbox: {fileID: 0}
 --- !u!58 &8729169656239113193
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -262,3 +284,48 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.5}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!61 &4692609629323475204
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120729955014061746}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.024457663, y: 0.4694279}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8614066, y: 0.51492363}
+  m_EdgeRadius: 0
