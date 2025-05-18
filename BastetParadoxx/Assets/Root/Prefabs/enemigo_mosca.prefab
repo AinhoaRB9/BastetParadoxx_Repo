@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5198828273869525033}
   - component: {fileID: 290275123515746200}
   - component: {fileID: 7035896052079231205}
+  - component: {fileID: 342595054378055793}
   m_Layer: 0
   m_Name: enemigo_mosca
   m_TagString: Untagged
@@ -34,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &9181124258389869119
 SpriteRenderer:
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 6
   m_Sprite: {fileID: 293274839, guid: bcfc413cecaf3fb4dbcdd09b6bc04f93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -186,3 +187,20 @@ MonoBehaviour:
   moveSpeed: 2
   detectionRange: 5
   player: {fileID: 0}
+--- !u!114 &342595054378055793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2281066362643827021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554cf6319936400489d5528ab0766936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangoDeAtaque: 2
+  tiempoEntreAtaques: 1
+  "da\u99C9": 10
+  health: 50
+  hitbox: {fileID: 0}
