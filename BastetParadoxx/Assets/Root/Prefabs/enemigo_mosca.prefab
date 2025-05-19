@@ -15,9 +15,11 @@ GameObject:
   - component: {fileID: 290275123515746200}
   - component: {fileID: 7035896052079231205}
   - component: {fileID: 342595054378055793}
+  - component: {fileID: 8182549627366970992}
+  - component: {fileID: -2460779924163379660}
   m_Layer: 0
   m_Name: enemigo_mosca
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,7 +138,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &290275123515746200
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -169,9 +171,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02781725, y: 0}
+  m_Offset: {x: -0.012904435, y: 0.0010929804}
   serializedVersion: 2
-  m_Radius: 0.22218275
+  m_Radius: 0.086506754
 --- !u!114 &7035896052079231205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +181,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2281066362643827021}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 736a2bef29fd2d14897979abc93832c5, type: 3}
   m_Name: 
@@ -204,3 +206,52 @@ MonoBehaviour:
   "da\u99C9": 10
   health: 50
   hitbox: {fileID: 0}
+--- !u!114 &8182549627366970992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2281066362643827021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39064233da947c49a30becf6eadc0bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  turnSpeed: 1.5
+--- !u!58 &-2460779924163379660
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2281066362643827021}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0054807663, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25767294
