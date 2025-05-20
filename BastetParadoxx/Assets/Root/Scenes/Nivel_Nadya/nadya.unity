@@ -4661,6 +4661,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8002746181603027388, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002746181603027388, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 434354688}
@@ -4748,6 +4752,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1225125409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225125410}
+  m_Layer: 0
+  m_Name: respawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1225125410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225125409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.56, y: -2.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229328074 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 723705680736500737, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
@@ -4772,6 +4807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   barraDeVida: {fileID: 1763026761}
+  respawnPoint: {fileID: 1225125410}
+  respawnDelay: 0
 --- !u!1001 &1234669459
 PrefabInstance:
   m_ObjectHideFlags: 0
