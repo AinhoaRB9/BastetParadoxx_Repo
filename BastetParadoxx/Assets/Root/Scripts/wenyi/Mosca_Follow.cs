@@ -4,33 +4,49 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-    public Transform player; // Referencia al jugador
-    public float speed = 3f; // Velocidad de movimiento
-    public float stoppingDistance = 0.5f; // Distancia m¨ªnima antes de detenerse
+    public float moveSpeed = 2f;
+    public float detectionRange = 5f;
+    public Transform player;
 
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
+    private float direction = 1f;
+    private float changeDirectionTime = 2f;
+    private float changeTimer;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        changeTimer = changeDirectionTime;
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        if (player == null) return;
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        // Calcular la direcci¨®n hacia el jugador
-        Vector2 direction = (player.position - transform.position).normalized;
-        float distance = Vector2.Distance(transform.position, player.position);
-
-        // Mover al enemigo si est¨¢ fuera de la distancia m¨ªnima
-        if (distance > stoppingDistance)
+        if (distanceToPlayer <= detectionRange)
         {
-            rb.velocity = direction * speed;
+            // Perseguir al jugador
+            direction = Mathf.Sign(player.position.x - transform.position.x);
         }
         else
         {
-            rb.velocity = Vector2.zero; // Detenerse si est¨¢ cerca del jugador
+            // Movimiento aleatorio
+            changeTimer -= Time.deltaTime;
+            if (changeTimer <= 0)
+            {
+                direction = Random.Range(0, 2) == 0 ? -1f : 1f;
+                changeTimer = changeDirectionTime;
+            }
         }
+
+        // Aplicar movimiento
+        rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
+
+        // Flip sprite
+        if (direction != 0)
+            spriteRenderer.flipX = direction < 0;
     }
+
 }

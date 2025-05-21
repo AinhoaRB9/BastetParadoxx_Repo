@@ -58,7 +58,7 @@ public class EnemigoAtaque : MonoBehaviour
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(daño); // Hace daño al jugador
-                Debug.Log($"El enemigo golpeó al jugador e hizo {daño} de daño.");
+                Debug.Log($"El enemigo golpe?al jugador e hizo {daño} de daño.");
             }
         }
     }

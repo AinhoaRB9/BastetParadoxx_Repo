@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private bool isGrounded;
 
-    private Vector3 respawnPoint; // Punto donde reaparecerá el jugador
+    private Vector3 respawnPoint; // Punto donde reaparecer?el jugador
 
     void Start()
     {
@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (currentHealth > 0) // Solo se mueve si está vivo
+        if (currentHealth > 0) // Solo se mueve si est?vivo
         {
             // Leer el input del jugador (teclas A/D o flechas Izquierda/Derecha)
             float move = Input.GetAxis("Horizontal");
@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
                 transform.localScale = new Vector3(-1, 1, 1);
             }
 
-            // Saltar si se presiona la tecla "Espacio" y está en el suelo
+            // Saltar si se presiona la tecla "Espacio" y est?en el suelo
             if (Input.GetButtonDown("Jump") && isGrounded)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
