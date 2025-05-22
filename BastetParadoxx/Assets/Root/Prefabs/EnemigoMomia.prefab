@@ -90,8 +90,8 @@ GameObject:
   - component: {fileID: 7975083503235057122}
   - component: {fileID: 8037643610061013340}
   - component: {fileID: 8579494170674850069}
-  - component: {fileID: 5707931458864981808}
   - component: {fileID: 859007910407851021}
+  - component: {fileID: 2491159507833312900}
   m_Layer: 3
   m_Name: EnemigoMomia
   m_TagString: Enemy
@@ -113,7 +113,7 @@ Transform:
   m_Children:
   - {fileID: 6915890152714657181}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4958478683073091256
 SpriteRenderer:
@@ -229,54 +229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangoDeAtaque: 2
   tiempoEntreAtaques: 1
-  "da\xF1o": 5
+  "da\u99C9": 10
   health: 50
   hitbox: {fileID: 3599162220694521074}
---- !u!61 &5707931458864981808
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4856808018122385106}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.013367653, y: -0.26733768}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.241478, y: 1.4653246}
-  m_EdgeRadius: 0
 --- !u!58 &859007910407851021
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -312,3 +267,38 @@ CircleCollider2D:
   m_Offset: {x: 0.11598909, y: -0.24737716}
   serializedVersion: 2
   m_Radius: 0.6397053
+--- !u!70 &2491159507833312900
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856808018122385106}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.037771046, y: -0.25409508}
+  m_Size: {x: 0.8668729, y: 1.4918098}
+  m_Direction: 0

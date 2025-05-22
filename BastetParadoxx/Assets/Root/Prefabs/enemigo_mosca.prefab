@@ -204,7 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangoDeAtaque: 2
   tiempoEntreAtaques: 1
-  "da\u99C9": 10
+  "da\u99C9": 5
   health: 50
   hitbox: {fileID: 2907764665239792882}
 --- !u!114 &8182549627366970992
