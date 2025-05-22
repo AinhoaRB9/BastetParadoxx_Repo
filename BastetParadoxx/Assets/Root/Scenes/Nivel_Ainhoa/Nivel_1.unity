@@ -6734,6 +6734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemigoMomia (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4958478683073091256, guid: 2c04595a119e12f49a70313469cd2ca9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7374,6 +7378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemigoMomia (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4958478683073091256, guid: 2c04595a119e12f49a70313469cd2ca9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7664,6 +7672,10 @@ PrefabInstance:
     - target: {fileID: 4856808018122385106, guid: 2c04595a119e12f49a70313469cd2ca9, type: 3}
       propertyPath: m_Name
       value: EnemigoMomia
+      objectReference: {fileID: 0}
+    - target: {fileID: 4958478683073091256, guid: 2c04595a119e12f49a70313469cd2ca9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32241,22 +32253,6 @@ MonoBehaviour:
   actualPoints: 0
   winPoints: 10
   winCoin: {fileID: 1062004811}
---- !u!114 &2021228732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021228730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eca870756e3c8eb41a989e67def063f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  barraDeVida: {fileID: 1053152176}
-  respawnPoint: {fileID: 482609482}
-  respawnDelay: 2
 --- !u!1 &2140209313
 GameObject:
   m_ObjectHideFlags: 0
@@ -32346,6 +32342,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1376573719617585426, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
+      propertyPath: barraDeVida
+      value: 
+      objectReference: {fileID: 1053152176}
+    - target: {fileID: 1376573719617585426, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 258231471}
     - target: {fileID: 1707889946773336428, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -32394,9 +32398,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 723705680736500737, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2021228732}
     - targetCorrespondingSourceObject: {fileID: 723705680736500737, guid: 2610fa3589006f34090e9e81c5798cf2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2021228731}
